@@ -12,6 +12,13 @@
     text-align: center;
     color: white;
 }
+.banner-title, .banner-subtitle{
+    font-size: 40px;
+    font-weight: 600px;
+}
+.banner-discription{
+    
+}
 .title{
     padding: 140px;
     margin-bottom: 30px;
@@ -22,21 +29,49 @@
     height: 45px;
     border-radius: 5px;
     color: white;
+    border: 0;
 }
 .donate{
     /* text-align: center; */
     margin-top: 65px; 
     display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: center;
-width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
 }
-.plan{
+.price{
     display: flex;
     list-style: none;
+    gap: 9px;
 }
-.big-container{
+.donate-container{
+    margin-top: 100px;
+    align-content: center;
+}
+.barak{
     text-align: center;
-    margin-top: 40px;
+    font-size: 35px;
+}
+.barak-discription{
+    text-align: center;
+    margin-top: 20px;
+    color: #707070;
+}
+.donate-plan{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.donate-title{
+    font-size: 20px;
+    margin-top: 7px;
+}
+.donate-subtitle{
+    font-size:10px;
+}
+.obama{
+    background-color: peachpuff;
+    padding: 20px;
+    
 }
