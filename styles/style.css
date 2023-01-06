@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.banner{
+    height: 400px;
+    background-image: url('../images/donation5.jpg');
+    background-position: no-repeat;
+    background-size: 100%;
+    background-color: gray;
+    background-blend-mode: multiply;
+    text-align: center;
+    color: white;
+}
+.title{
+    padding: 140px;
+    margin-bottom: 30px;
+}
+.button-primray{
+    background-color:  #FF5959;
+    margin-top: 30px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+}
+.donate{
+    /* text-align: center; */
+    margin-top: 65px; 
+    display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+}
+.plan{
+    display: flex;
+    list-style: none;
+}
+.big-container{
+    text-align: center;
+    margin-top: 40px;
+}
